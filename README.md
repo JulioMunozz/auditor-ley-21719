@@ -28,4 +28,4 @@ Todos los datos son generados con Faker.
 | Creencia religiosa | Sensible | "Católico" |
 | Dato biométrico | Sensible | Huella dactilar (hash ficticio: a3f9c1...) |
 
- ## los datos son ficticios, generados con Faker.
+ ## los datos son ficticios, generados con Faker!.

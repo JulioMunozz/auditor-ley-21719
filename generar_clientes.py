@@ -23,5 +23,3 @@ df.to_csv("clientes.csv", index=False, encoding="utf-8-sig")
 
 print(df.shape)   # debería salir (100, 8)
 print(df.head())
-
-df["rut"].is_unique
