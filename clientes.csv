@@ -1,101 +1,101 @@
-﻿nombre,rut,direccion,telefono,email,fecha_nacimiento,genero,estado_civil
-Margarita Daniela Mansilla Concha,73.197.867-0,"Calle Esmeralda 408 Of. 4865, General Lagos, Región de Arica y Parinacota, 2654230",+56 35 251 6155,barrazagabriela@example.com,1946-07-26,Femenino,Divorciado/a
-María Araya Álvarez,10.709.507-1,"Ruta 5 Norte, km 390",+56 61 255 2553,cornejojorge@example.net,1969-02-27,Masculino,Viudo/a
-Bastián Sáez-Salgado Garcés,7.507.874-9,"Gabriela Mistral 8953, Curarrehue, Región de La Araucanía, 7242380",+56 9 6396 9653,dsoto@example.org,1956-08-22,Masculino,Viudo/a
-Marisol Gladys Valenzuela Paredes,1.540.966-5,"Samuel Manríquez 8462, Camarones, Región de Arica y Parinacota",+56 800 982 814,carlossolis@example.net,2008-01-09,Masculino,Divorciado/a
-Emilia Leidy Ibáñez Gutiérrez,32.329.247-7,"Ruta 5 Norte, km 88",+56 800 918 227,matiassegovia@example.com,1964-08-31,Masculino,Divorciado/a
-Héctor Madrid Peña,33.273.338-9,"Calle Manuel Rodríguez 2103 Dpto. 851, Nancagua, Región del Libertador General Bernardo O'Higgins, 8299730",+56 58 373 1165,ucaceres@example.org,1949-03-27,Masculino,Viudo/a
-Ana Ramírez,71.979.065-8,"Calle Víctor Aros 181 Of. 280, Coltauco, Región del Libertador General Bernardo O'Higgins",+56 63 377 3602,retamalesmatias@example.com,1974-08-30,Femenino,Viudo/a
-Rosendo Raúl Sanhueza Ibarra,7.672.603-5,"Gregorio Carvajal 2812 Of. 713, Timaukel, Región de Magallanes y de la Antártica Chilena, 3990910",+56 73 349 9854,pedro62@example.net,1976-09-01,Femenino,Divorciado/a
-María Arancibia,75.563.737-8,"Ruta T-48, km 33, Región de La Araucanía",+56 2 3851 3542,lorena80@example.net,1976-08-02,Masculino,Casado/a
-René Sepúlveda,37.816.696-9,"Avenida Elvira Yáñez 5016 Dpto. 305, Lumaco, Región de La Araucanía",+56 9 8180 1128,carla26@example.org,1941-07-14,Femenino,Divorciado/a
-Colomba Valderrama Castillo,33.491.324-4,"Dylan Orellana 323 Dpto. 760, El Monte, Región Metropolitana",+56 600 842 160,franciscozepeda@example.com,1977-05-18,Masculino,Casado/a
-Benjamín Walter Galdames Vásquez,86.098.231-5,"Calle Los Copihues 7401 Piso 95, Cabildo, Región de Valparaíso",+56 67 393 4060,elizabethdiaz@example.net,1980-10-12,Femenino,Soltero/a
-Fernanda Pamela Ortiz Gómez,17.084.289-8,"Avenida Matías Guerrero 6436 Piso 47, Quinchao, Región de Los Lagos, 7214890",+56 34 213 4332,gutierrezisabel@example.org,1997-10-27,Femenino,Casado/a
-Gloria Claudia Barría Merino,14.305.914-6,"Av. Leonardo Cáceres 317, Los Lagos, Región de Los Ríos",+56 800 879 868,karlagodoy@example.com,1969-06-28,Femenino,Viudo/a
-María Cecilia Sánchez Cortés,72.498.014-7,"Calle Carolina Castillo 858, Pitrufquén, Región de La Araucanía, 0366900",+56 9 8970 5466,florenciasanchez@example.com,1939-10-16,Femenino,Divorciado/a
-Flor Riffo Garay,83.517.925-7,"Elena Muñoz 327 Dpto. 4646, Quilleco, Región del Biobío",+56 51 396 4170,adasmedaniel@example.net,1945-03-07,Masculino,Soltero/a
-María Constanza Silva Chávez,75.694.725-7,"Ruta U-345, km 8, Región del Libertador General Bernardo O'Higgins",+56 35 279 0496,juangajardo@example.net,1968-11-22,Masculino,Divorciado/a
-Rosa Guevara Santibáñez,46.600.910-5,"Calle José Victorino Lastarria 27 Piso 35, Curacautín, Región de La Araucanía",+56 2 3784 9877,rodrigo31@example.com,1997-03-12,Masculino,Viudo/a
-Isidora Medina García,65.437.854-1,"Manuel Rodríguez 148 Of. 4318, Laguna Blanca, Región de Magallanes y de la Antártica Chilena, 3777010",+56 45 286 3495,alejandro85@example.com,1997-08-05,Femenino,Divorciado/a
-Jorge Luis Alvarado Solís,24.850.401-3,"Avda. Las Araucarias 441 Piso 33, Talcahuano, Región del Biobío, 0824000",+56 9 6827 1094,lguzman@example.org,1970-03-15,Femenino,Soltero/a
-María Rocío Rojas Sepúlveda,75.543.061-7,"Ruta T-23, km 27, Región del Biobío",+56 9 8177 4964,penalozapatricia@example.org,1971-11-10,Masculino,Casado/a
-Carlos Salazar Alfaro,63.070.595-9,"Avda. Las Manzanillas 41, Teno, Región del Maule, 9361830",+56 600 542 102,marta74@example.net,1990-08-15,Femenino,Viudo/a
-Ronald Araneda Cerda,3.471.537-8,"Calle Las Araucarias 97, Buin, Región Metropolitana, 7429670",+56 2 2375 6551,fernando74@example.net,1990-05-05,Masculino,Viudo/a
-Luis Gaspar Novoa Jaramillo,154.503-5,"Aníbal Pinto Garmendia 897 Dpto. 834, Los Muermos, Región de Los Lagos",+56 2 2109 3248,hsoto@example.com,1951-10-30,Masculino,Viudo/a
-Beatriz Pamela Escobar Godoy,61.308.852-0,"Pasaje Carla Segura 74 Piso 18, Yerbas Buenas, Región del Maule",+56 800 999 727,jvergara@example.net,1987-03-07,Femenino,Divorciado/a
-Constanza Molina-Quintana Salazar,42.704.913-2,"Salvador Allende Gossens 902 Of. 851, Chaitén, Región de Los Lagos",+56 32 352 6217,leonardo61@example.com,2008-06-19,Femenino,Divorciado/a
-Antonella Sanhueza,82.874.016-4,"Avda. Paulina Soto 317 Of. 1401, Lota, Región del Biobío, 5562380",+56 67 372 2219,marceloacevedo@example.org,1998-08-08,Femenino,Viudo/a
-Julián Cristofer Concha Martínez,59.287.977-8,"Ruta 546-CH, km 30, Región de Los Lagos",+56 2 3667 1369,ruby40@example.net,1989-09-16,Femenino,Soltero/a
-Leonor Rojas Salas,66.669.617-4,"Ruta 5 Sur, km 795",+56 2 3395 3394,ordenesluisa@example.com,1995-11-02,Masculino,Divorciado/a
-Sandra Ema Torres López,72.398.093-3,"Ruta 5 Sur, km 544",+56 9 6824 7451,moralesdora@example.net,1989-12-05,Femenino,Soltero/a
-Lorena Silvia Catalán Catalán,78.458.337-6,"Avenida Manuel Baquedano 485 Of. 5172, Algarrobo, Región de Valparaíso, 0047110",+56 2 3782 6758,nicolleon@example.com,1991-05-21,Femenino,Soltero/a
-Natalia Constanza Riquelme Allende,49.302.873-1,"Calle Esmeralda 1713 Dpto. 53, Illapel, Región de Coquimbo",+56 9 5193 3529,noemi22@example.net,1969-12-15,Masculino,Soltero/a
-María Pilar Reyes García,23.386.939-2,"Patricio Lynch 87, Ninhue, Región de Ñuble, 8917830",+56 9 2784 7007,fbarria@example.net,1996-03-17,Masculino,Soltero/a
-Luis Bastián Toledo Villegas,51.124.132-4,"Ruta 947-CH, km 28, Región de Coquimbo",+56 600 783 673,loreto66@example.net,1948-10-12,Femenino,Viudo/a
-Florencio Hernán Godoy Soto,11.457.420-1,"Lautaro 998, Mulchén, Región del Biobío, 1656040",+56 9 6851 9832,marinarivera@example.net,1985-11-12,Masculino,Divorciado/a
-Marlene Paz,83.446.366-0,"Mayte Palacios 6244, Bulnes, Región de Ñuble",+56 2 2122 9612,valdiviavictor@example.com,1997-07-31,Femenino,Casado/a
-Germán Mora Pérez,7.061.047-7,"Calle Salvador Allende 576, Palmilla, Región del Libertador General Bernardo O'Higgins, 8156140",+56 800 184 036,fuentesida@example.org,1970-08-13,Femenino,Divorciado/a
-Patricio Luis Palma Araya,74.990.617-0,"Ruta 5 Sur, km 74",+56 44 360 6071,tvelasquez@example.net,1992-09-08,Femenino,Soltero/a
-Carlos Peñaloza,61.753.170-4,"Ruta 5 Sur, km 91",+56 35 323 6968,vcarmona@example.com,1965-12-30,Femenino,Casado/a
-Mauricio Ramírez Carrillo,47.123.818-K,"Calle Valentina Hernández 8127, Antártica, Región de Magallanes y de la Antártica Chilena",+56 9 9299 5527,tparra@example.com,1943-06-27,Femenino,Soltero/a
-Juan Ismael Díaz Loyola,12.119.401-5,"Las Lilas 407 Piso 99, Catemu, Región de Valparaíso",+56 2 2171 5182,ingridmoncada@example.net,2006-12-26,Masculino,Divorciado/a
-Eduardo Miguel Arriagada Arenas,86.879.864-5,"Calle Los Carrera 2925 Of. 5253, La Granja, Región Metropolitana, 1486520",+56 600 568 505,nataliejara@example.com,1961-12-21,Masculino,Casado/a
-Bruno Oscar Ortega Mancilla,70.669.889-2,"Rosa Vera 1927 Piso 5, Purén, Región de La Araucanía, 9473830",+56 63 253 5977,ayanez@example.org,1963-01-08,Masculino,Divorciado/a
-Héctor Joseph Ahumada Moreno,16.733.977-8,"Calle Los Girasoles 8613, Chillán, Región de Ñuble, 0606850",+56 2 3261 5305,adolfo20@example.com,2000-02-21,Masculino,Viudo/a
-Juan Matías Zambrano Guerrero,97.607.810-1,"Avda. Mac Iver 8369 Dpto. 17, El Quisco, Región de Valparaíso",+56 58 270 9539,ruthperez@example.com,1945-01-19,Masculino,Viudo/a
-Andrea Paola Ibarra Figueroa,9.067.700-4,"Elisa Carrasco 8852, Cochamó, Región de Los Lagos, 2217040",+56 2 3703 0548,wcastro@example.net,1961-11-06,Femenino,Divorciado/a
-Romina Margarita Véliz Guzmán,53.690.023-3,"Los Copihues 975 Piso 21, Angol, Región de La Araucanía",+56 9 4584 5115,monica62@example.net,1996-04-03,Femenino,Viudo/a
-Diego Viveros,36.850.206-5,"Avenida Matta 320, Macul, Región Metropolitana",+56 800 602 135,cmelo@example.net,1956-09-21,Femenino,Divorciado/a
-Ignacio Carvajal Campos,87.182.576-9,"Avda. Los Aromos 581, Romeral, Región del Maule, 7394730",+56 2 2621 7271,german88@example.com,1976-08-30,Masculino,Casado/a
-Rosa Sofía Morales Opazo,3.527.792-7,"Las Mosquetas 3 Of. 5118, Chaitén, Región de Los Lagos, 6691250",+56 600 977 852,michaelsilva@example.net,1943-05-20,Masculino,Casado/a
-Ítalo Francisco Peñaloza Lagos,38.124.328-1,"Ruta 5 Sur, km 202",+56 800 924 981,karenpinto@example.org,1981-10-16,Masculino,Soltero/a
-Jean Vargas,28.294.231-3,"Ingrid Vidal 844 Dpto. 264, Putaendo, Región de Valparaíso",+56 58 337 7359,eugenia55@example.com,1953-08-21,Femenino,Soltero/a
-Pedro Víctor Soto Álvarez,51.559.727-1,"Ruta 5 Sur, km 255",+56 2 3959 5327,tvidal@example.com,1938-12-30,Masculino,Viudo/a
-Sofía Rivera,6.783.428-3,"Calle Las Mosquetas 7245 Piso 10, Timaukel, Región de Magallanes y de la Antártica Chilena, 8358410",+56 64 327 8499,florasandoval@example.com,1985-08-07,Masculino,Casado/a
-María Rosa Valdebenito Montecinos,69.703.666-0,"Los Copihues 6694, Quellón, Región de Los Lagos",+56 9 9294 7055,yacevedo@example.net,1939-06-20,Femenino,Divorciado/a
-Aurora Acuña Moraga,78.319.178-4,"Av. Víctor Velásquez 13 Piso 35, Perquenco, Región de La Araucanía",+56 600 368 970,hugoviveros@example.com,2007-05-11,Femenino,Divorciado/a
-Nancy Sonia Moya Mellado,91.368.176-2,"Alicia Cubillos 5434 Of. 6376, San Gregorio, Región de Magallanes y de la Antártica Chilena",+56 800 741 986,daisy24@example.org,1974-12-27,Masculino,Divorciado/a
-Jeannette Castillo Tobar,36.390.827-6,"Ruta 242-CH, km 16, Región del Biobío",+56 2 2683 3016,xrodriguez@example.org,1936-07-18,Masculino,Viudo/a
-Josefa Lara,38.553.386-1,"Avenida Eliodoro Yáñez 72, Malloa, Región del Libertador General Bernardo O'Higgins, 0672400",+56 2 2849 9154,ivarela@example.net,1999-07-16,Femenino,Casado/a
-Yasna Lidia Barrientos González,45.246.440-3,"Avenida Bastián Orellana 751, El Monte, Región Metropolitana",+56 2 2522 7530,wreyes@example.com,1980-09-13,Femenino,Soltero/a
-Víctor Fabián Cáceres Martínez,92.083.252-0,"Avenida San Martín 832 Dpto. 7979, San Pedro, Región Metropolitana",+56 2 3639 1878,montoyaluis@example.net,2004-08-20,Masculino,Casado/a
-Claudio Zapata,96.223.110-1,"Claudio Rojas 1679, San Gregorio, Región de Magallanes y de la Antártica Chilena",+56 73 344 0640,munozsergio@example.org,1944-01-16,Masculino,Viudo/a
-Alfredo Luciano Videla Ríos,56.420.034-4,"Las Mosquetas 76 Dpto. 282, Aisén, Región de Aysén del General Carlos Ibáñez del Campo, 6823000",+56 61 248 6863,rvergara@example.org,1951-03-14,Masculino,Viudo/a
-Lucy Gutiérrez,9.031.642-7,"Las Hortensias 103, Gorbea, Región de La Araucanía, 7383020",+56 9 6439 5995,henry83@example.com,1976-09-26,Femenino,Soltero/a
-Elisa Torres Ávila,74.605.023-2,"Lynch 562 Piso 42, Talca, Región del Maule",+56 75 272 7086,claudiocastro@example.com,1946-08-08,Femenino,Divorciado/a
-Jorge Sánchez Catalán,80.922.837-1,"Av. Macarena Cifuentes 1354, Lolol, Región del Libertador General Bernardo O'Higgins, 3173930",+56 45 398 5467,diego58@example.com,1999-04-07,Masculino,Viudo/a
-Javiera Verónica Muñoz Loyola,99.489.220-7,"Ítalo Acuña 623 Dpto. 969, Paine, Región Metropolitana, 5477720",+56 800 922 872,bustosbenjamin@example.org,1942-06-11,Masculino,Viudo/a
-Juan Sepúlveda Espinoza,61.204.590-9,"Los Cactus 1860 Of. 548, Puqueldón, Región de Los Lagos, 6211820",+56 2 3739 8454,mirandavicente@example.net,1968-12-09,Masculino,Divorciado/a
-Magdalena Cabello,4.252.632-0,"Pedro Aguirre Cerda 8021 Piso 5, Futaleufú, Región de Los Lagos, 0339740",+56 2 2614 8902,barrigaagustina@example.net,1990-01-18,Masculino,Divorciado/a
-Rolando Sergio Hurtado Carrasco,99.286.926-7,"Rubén Vergara 7315, Laja, Región del Biobío, 0477350",+56 9 8562 9619,fabiolaperez@example.org,1987-07-23,Masculino,Viudo/a
-José Diego Figueroa Sánchez,17.784.799-2,"Las Azucenas 161 Dpto. 758, Colchane, Región de Tarapacá, 4661830",+56 9 4862 2444,mariaalarcon@example.com,1976-08-20,Femenino,Soltero/a
-Camilo Medina,82.767.894-5,"Calle Elvis Carrasco 657, Angol, Región de La Araucanía, 9245930",+56 53 342 6547,veronica65@example.org,1963-01-13,Masculino,Soltero/a
-Vanessa Paulina Álvarez Uribe,54.914.064-5,"Calle Las Maravillas 8661, La Reina, Región Metropolitana",+56 67 316 8868,tamara89@example.net,1947-05-29,Masculino,Casado/a
-Lidia María Guevara Concha,53.635.795-5,"Ruta U-161, km 7, Región de La Araucanía",+56 2 3888 8993,isidora98@example.org,1982-10-16,Masculino,Viudo/a
-Amador Luis Arredondo Morales,41.861.223-1,"Alejandro Aravena 275, Santa Juana, Región del Biobío, 0105120",+56 600 982 825,oangulo@example.com,1960-12-11,Masculino,Viudo/a
-Isaías Peña Garrido,597.284-1,"Avda. Las Mosquetas 29, Lago Verde, Región de Aysén del General Carlos Ibáñez del Campo",+56 2 3855 3714,fabian96@example.net,1951-05-22,Femenino,Divorciado/a
-Marianela Mendoza Gómez,82.474.725-3,"Arturo Prat 9252, Yungay, Región de Ñuble",+56 71 382 9662,cesarleiva@example.org,1961-04-21,Femenino,Viudo/a
-Isolina Escobar,26.189.712-1,"Ruta 5 Sur, km 419",+56 800 167 721,benjaminsanchez@example.net,1975-02-16,Masculino,Viudo/a
-Victoria Valdés Velásquez,35.955.450-8,"Bernardo Muñoz 48 Piso 1, San Pedro de la Paz, Región del Biobío",+56 2 2474 5171,leonelquezada@example.com,1994-02-11,Masculino,Casado/a
-Sylvia Donoso,71.441.529-8,"Los Copihues 2948, Olmué, Región de Valparaíso, 6042230",+56 2 3553 6729,emiranda@example.net,1948-07-05,Femenino,Divorciado/a
-Jessica Ruiz,78.108.761-0,"Las Margaritas 951, Freire, Región de La Araucanía, 3637450",+56 53 268 9297,munozximena@example.com,1938-01-21,Masculino,Casado/a
-Abelardo Manuel Alfaro López,87.241.157-7,"Avenida Eusebio Lillo 720 Of. 743, Puchuncaví, Región de Valparaíso, 0371290",+56 2 3787 0051,joaquinaraya@example.org,1949-10-12,Masculino,Divorciado/a
-Sergio Cristopher Benavides Cuevas,90.883.810-6,"Belén Guzmán 72, Peñalolén, Región Metropolitana, 7311210",+56 9 8256 5234,josefaarriagada@example.net,1974-08-14,Masculino,Divorciado/a
-Jorge Sandoval Pacheco,32.123.825-4,"Calle Marisol Pino 6, Los Álamos, Región del Biobío",+56 2 3869 6582,gonzalezmaria@example.com,1965-03-15,Masculino,Soltero/a
-Juana Renata Fuentealba Romero,53.992.770-1,"Calle Los Piñones 932, Laja, Región del Biobío, 6914630",+56 2 2131 6179,franco21@example.org,1954-07-07,Masculino,Casado/a
-Karen Estefanía Castro Miranda,36.072.968-0,"Calle Gabriela Mistral 249, Chonchi, Región de Los Lagos",+56 64 365 0792,sebastianrodriguez@example.net,1951-07-16,Masculino,Soltero/a
-Víctor Godoy,51.402.644-0,"Ruta T-90, km 27, Región del Biobío",+56 45 266 5419,cardenascelia@example.org,1966-03-20,Masculino,Viudo/a
-Sebastián Dante Carrasco Paredes,1.069.614-3,"Bernardita Mancilla 4597 Of. 383, Nueva Imperial, Región de La Araucanía, 0385050",+56 2 2764 1383,jbarriga@example.net,1973-12-04,Masculino,Soltero/a
-Jacqueline Cruz,49.995.036-5,"Ana López 11, Curacautín, Región de La Araucanía",+56 600 634 456,andrea31@example.org,1954-05-14,Masculino,Casado/a
-Felipe Luis Figueroa Córdova,60.655.293-9,"Calle Santa Rosa 19 Dpto. 52, Coihueco, Región de Ñuble, 6804420",+56 2 2867 8831,montecinosrosa@example.org,1944-03-26,Masculino,Casado/a
-Hernán Santino Pérez Toledo,10.064.619-6,"Pasaje Teresa Silva 25, Caldera, Región de Atacama, 7029660",+56 32 336 6253,felipe20@example.net,1969-04-17,Femenino,Viudo/a
-Juan Vásquez López,26.770.783-9,"Domingo Carrera 85, Cochrane, Región de Aysén del General Carlos Ibáñez del Campo",+56 55 339 8564,cortescatalina@example.com,1943-10-25,Femenino,Divorciado/a
-Jenniffer Rodríguez-León,35.772.658-1,"Calle Scarlette Vega 32, Pencahue, Región del Maule",+56 9 7359 0599,amaliabriones@example.com,1977-11-26,Masculino,Viudo/a
-Julio José Aravena Carrasco,82.427.783-4,"Caupolicán 15, Antofagasta, Región de Antofagasta, 2921850",+56 2 2656 9154,lisandroguajardo@example.com,2002-02-23,Femenino,Casado/a
-Lucy Cabrera Figueroa,89.326.158-3,"Balmaceda 1096, Peumo, Región del Libertador General Bernardo O'Higgins",+56 9 7693 9172,reyesaurelia@example.org,1947-12-01,Femenino,Viudo/a
-Ángel Diego Fuenzalida Moraga,6.462.252-8,"Av. Javier Vera 417 Dpto. 171, Tirúa, Región del Biobío, 4115260",+56 2 3818 1599,garridoblanca@example.net,1994-12-08,Masculino,Soltero/a
-Jorge Ramón Moraga Barraza,35.603.244-6,"Calle Paula Ramos 105 Piso 81, Marchihue, Región del Libertador General Bernardo O'Higgins",+56 2 2203 2417,mariela77@example.net,1971-11-28,Masculino,Viudo/a
-Héctor Saavedra,35.338.996-3,"Av. Elena Sepúlveda 611 Of. 469, Yungay, Región de Ñuble",+56 9 8287 9374,tacosta@example.org,2004-03-05,Masculino,Soltero/a
-Elcira Camila Castillo Ramírez,5.727.872-2,"Camino Isabella Urra 9116 Piso 58, Río Negro, Región de Los Lagos",+56 32 379 9861,carlosquezada@example.org,1950-03-21,Masculino,Divorciado/a
-Geraldine Vargas,87.884.123-9,"Calle Gabriela Mistral 760 Piso 3, Puerto Montt, Región de Los Lagos",+56 55 280 5444,liracristian@example.com,1996-02-24,Femenino,Divorciado/a
+﻿nombre,rut,direccion,telefono,email,fecha_nacimiento,genero,estado_civil,ip,patente,cuenta_bancaria,sueldo
+Margarita Daniela Mansilla Concha,73.197.867-0,"Calle Esmeralda 408 Of. 4865, General Lagos, Región de Arica y Parinacota, 2654230",+56 35 251 6155,barrazagabriela@example.com,1946-07-26,Femenino,Divorciado/a,192.168.35.156,KPDK-16,IOUL25534192832764,2536176
+Olga Salgado Garcés,7.507.874-9,"Gabriela Mistral 8953, Curarrehue, Región de La Araucanía, 7242380",+56 9 6396 9653,dsoto@example.org,1956-08-22,Masculino,Viudo/a,192.168.195.99,WYLZ-01,VRYI51462704828148,2374361
+Fresia Lorena Cofré Carvajal,76.768-9,"Calle Gabriela Mistral 5 Dpto. 03, Los Muermos, Región de Los Lagos",+56 2 2582 2782,iibacache@example.net,1963-03-21,Femenino,Viudo/a,192.168.224.78,VD-3315,ASRH93010310518347,775742
+Joseph Ignacio Godoy Barra,54.634.673-0,"Juan Mackenna 101, Lautaro, Región de La Araucanía, 5133380",+56 41 326 2473,jparada@example.org,1942-09-22,Masculino,Soltero/a,10.248.165.244,TCHT-06,IZZO46872343098050,2293849
+Gregorio Mauricio Rojas Salinas,24.941.014-4,"Calle Ada Donoso 209, Saavedra, Región de La Araucanía, 9985430",+56 800 834 624,eloisa10@example.com,1949-06-13,Masculino,Casado/a,192.168.178.177,JP-4278,WJTZ80841241182449,1609250
+Alonso Ian Yáñez Valenzuela,6.818.122-4,"Calle Los Pinos 34 Of. 778, San Esteban, Región de Valparaíso, 1280590",+56 9 4662 0450,emilioburgos@example.com,1991-02-24,Masculino,Casado/a,10.90.166.155,AG-5634,FZWD60733754330365,2192941
+Arturo Diego Salinas Ávila,71.969.667-8,"Av. Eusebio Lillo 240, La Pintana, Región Metropolitana, 6556980",+56 2 2169 3406,elizabethdiaz@example.net,1980-10-12,Femenino,Soltero/a,192.168.158.90,RTPZ-23,NVMV29946804436995,1897998
+Manuel Alejandro Aburto Santander,22.775.603-9,"Iván Hidalgo 4343 Dpto. 200, Futrono, Región de Los Ríos",+56 72 349 3676,karinagonzalez@example.org,1993-09-14,Masculino,Casado/a,192.168.25.182,FWGW-88,TKYO98687277434873,2995518
+Sebastián Pedro Cortés Ortega,18.572.262-7,"Avda. Juan Salazar 460 Piso 6, Santiago, Región Metropolitana, 6705460",+56 65 358 9373,yescobar@example.com,1990-11-13,Masculino,Viudo/a,10.13.206.139,RP-1627,FBIM53755646417080,1901531
+Belén Mia Lara Cid,33.189.813-9,"Carolina Silva 893, Molina, Región del Maule, 5299120",+56 35 279 0496,juangajardo@example.net,1968-11-22,Masculino,Divorciado/a,192.168.61.250,ZB-5865,CQUK06716572628498,2493495
+Dominga Ruth García Gutiérrez,11.631.707-9,"Avda. Maite Chávez 8752 Dpto. 5954, Camiña, Región de Tarapacá, 8313670",+56 9 5477 7014,tgajardo@example.net,1986-01-24,Femenino,Divorciado/a,172.26.149.215,WLPL-31,XGKD82337498941343,2633704
+Santiago Luis Muñoz Rojas,39.209.926-3,"Los Helechos 59, Paillaco, Región de Los Ríos",+56 61 325 2047,ortizmaria@example.net,1943-02-19,Masculino,Casado/a,192.168.43.156,CC-8699,ZTHY86774964990913,1862761
+María Fernanda Paredes Martínez,54.830.310-9,"Calle Los Robles 27 Of. 4342, Cochrane, Región de Aysén del General Carlos Ibáñez del Campo",+56 2 3524 2102,marta74@example.net,1990-08-15,Femenino,Viudo/a,172.17.70.138,PZ-4013,VSSA49027874296717,2893952
+Álvaro Thomas Carrasco Uribe,38.683.947-6,"José Pérez 1168 Of. 787, Rengo, Región del Libertador General Bernardo O'Higgins",+56 9 7997 7034,marieguzman@example.net,2001-10-23,Masculino,Soltero/a,192.168.122.133,LX-0861,HDOD27484677378263,2215524
+Delia Stephanie Vásquez Arenas,55.692.639-5,"Calle Manuel Rodríguez 872 Of. 6758, Los Ángeles, Región del Biobío, 3396360",+56 2 2157 6627,ignaciofarias@example.org,1995-10-07,Masculino,Viudo/a,10.209.232.183,FC-7459,WMUC58657809134316,1212908
+Beatriz Rodríguez Hernández,40.193.666-1,"Ruta T-15, km 19, Región de Magallanes y de la Antártica Chilena",+56 58 232 3869,carolinacornejo@example.com,1968-08-13,Femenino,Casado/a,10.130.9.81,BWPZ-21,OLSJ64743671369594,1908941
+Enriqueta Romina Sánchez Mora,92.046.459-9,"Leonor Gallegos 63, Placilla, Región del Libertador General Bernardo O'Higgins",+56 600 594 210,xmunoz@example.net,1953-09-22,Masculino,Divorciado/a,172.21.158.215,ZSYY-42,IPZJ51712368516048,2953582
+Alberto Cristian Molina Villarroel,49.858.358-K,"Los Cactus 485, Tiltil, Región Metropolitana, 1746120",+56 2 2904 7113,claudiomiranda@example.net,1992-11-18,Masculino,Viudo/a,192.168.250.139,LCSJ-77,HLDV58506431713900,993547
+Rosa Luisa Díaz Gaete,27.804.201-4,"Lautaro 19, Retiro, Región del Maule",+56 2 3328 4210,figueroayasna@example.net,1979-11-27,Masculino,Casado/a,172.29.120.130,DXWS-89,DOQH90847007661771,2909444
+Carolina Rosa Marín Toledo,95.583.540-9,"Los Girasoles 911 Of. 836, Perquenco, Región de La Araucanía, 5766150",+56 53 324 5271,sotojuan@example.net,1986-07-23,Masculino,Soltero/a,192.168.168.199,VSVC-49,JLDS83273158514936,951730
+Eugenia Julia Cuevas-González Ávalos,93.076.137-0,"Avda. Los Robles 15, Olivar, Región del Libertador General Bernardo O'Higgins, 2961200",+56 2 2383 6675,diego59@example.net,1947-05-28,Masculino,Casado/a,10.25.122.120,LWVX-97,NIGY81561497840369,2753401
+Rogelio Alfredo Baeza Álvarez,16.104.036-3,"Calle Martín Araya 751 Of. 1062, Contulmo, Región del Biobío, 9696640",+56 2 2660 5297,guzmanana@example.com,1990-05-05,Masculino,Viudo/a,172.23.23.30,HDYF-88,GYLL23124329212779,2341402
+Estrella Elena Inostroza Marín,84.183.705-3,"Calle Freire 19 Piso 8, Arauco, Región del Biobío, 7700540",+56 2 2919 9867,penaanais@example.net,1961-06-17,Femenino,Viudo/a,192.168.31.173,RDYH-03,WOOQ89255466590515,2626989
+Sebastián Valencia León,80.893.143-5,"Ruta 5 Sur, km 84",+56 9 4554 6291,vcuevas@example.org,2007-06-26,Masculino,Viudo/a,192.168.185.166,JRXJ-32,ECJZ18880592962229,1284813
+Paulina Isabel Concha Reyes,59.619.351-K,"Calle Fernanda Parada 835 Piso 94, Futaleufú, Región de Los Lagos",+56 42 383 9240,cesar18@example.org,1974-08-21,Masculino,Casado/a,172.20.183.20,CI-7506,BMQL36153051522047,1707409
+Beatriz Natalia González Pérez,34.349.538-2,"Adán Cornejo 543, Zapallar, Región de Valparaíso, 0369710",+56 2 2479 8089,benjamingonzalez@example.com,1968-07-31,Femenino,Casado/a,192.168.184.161,YZYY-80,MPBU65405153195205,2685494
+Patricia Cofré,62.360.639-2,"Ruta U-222, km 30, Región de Antofagasta",+56 43 290 3054,imelendez@example.com,1970-04-26,Masculino,Casado/a,172.17.135.156,PJ-1566,XOMK27758416169284,2289119
+Mateo Matías Rivas Gallardo,92.578.675-6,"Avda. Los Alerces 164 Dpto. 65, El Quisco, Región de Valparaíso",+56 9 9702 1355,cerdasamuel@example.com,1986-06-21,Femenino,Soltero/a,192.168.187.224,LKFB-27,QMRD44739473121727,644572
+Araceli De La Fuente,89.635.949-5,"Joaquín Bahamondes 62, Quemchi, Región de Los Lagos, 3132370",+56 2 2358 9578,diazalejandra@example.net,2000-12-26,Femenino,Viudo/a,192.168.162.81,WWYS-28,USFY26801824225358,1120325
+Francisca Inostroza,73.932.693-1,"Nancy Cárdenas 6922 Of. 200, San José de Maipo, Región Metropolitana, 9439690",+56 600 478 447,egomez@example.net,1943-12-30,Masculino,Viudo/a,172.22.135.91,GRRS-62,YLQR15371473210469,1358946
+Jordán Huerta,77.535.851-3,"Calle Jaime Vidal 9016, La Unión, Región de Los Ríos",+56 2 3839 5004,afernandez@example.org,1994-06-28,Masculino,Divorciado/a,192.168.206.119,TCZJ-58,JCMQ78499121655852,2923096
+Oscar José López Núñez,63.584.873-1,"Rayén Morales 35, Cunco, Región de La Araucanía",+56 9 6595 8887,xzamorano@example.com,1950-10-04,Femenino,Divorciado/a,192.168.13.164,LKCX-28,UXTY62309130756263,2527464
+Jairo Segovia Mansilla,8.359.262-1,"Benjamín Ponce 852, Palena, Región de Los Lagos",+56 65 245 4973,alicia34@example.com,1964-01-19,Femenino,Divorciado/a,172.24.192.42,ZTTS-24,BJWC57473384842199,976561
+Clemente Francisco Reyes Rodríguez,44.331.269-2,"Calle David Ávalos 477, Chiguayante, Región del Biobío",+56 52 210 1938,mariocortez@example.org,1989-11-14,Femenino,Casado/a,192.168.148.53,AK-9915,JOUR87287431527420,640803
+Maite Riveros Torres,85.728.334-1,"Ruta 5 Sur, km 528",+56 34 266 1227,josemolina@example.com,1972-03-06,Femenino,Divorciado/a,192.168.5.218,SKCF-74,FMVQ41459332727956,2522734
+Violeta Rubio,29.314.721-3,"Ricardo Retamal 9910, Queilén, Región de Los Lagos",+56 2 3898 2258,zapatalidia@example.com,1948-03-20,Femenino,Soltero/a,172.29.75.40,CZWP-06,IAXG91065180170462,2643804
+Katia Ríos Romero,51.335.555-6,"Arturo Alessandri Palma 351 Of. 368, Camarones, Región de Arica y Parinacota",+56 2 2447 8686,paulasepulveda@example.org,1951-03-14,Masculino,Viudo/a,192.168.8.2,DFCW-90,HXBM73830284395995,2941168
+Rudy Maldonado,55.507.121-3,"Flavio Segura 96, Ancud, Región de Los Lagos, 0568560",+56 41 344 6287,miguelneira@example.com,1943-09-07,Femenino,Viudo/a,192.168.198.222,JRDW-51,RXGB46990139837354,2681869
+Claudina Lisette Contreras Dinamarca,64.279.681-K,"Ruta 793-CH, km 16, Región de Aysén del General Carlos Ibáñez del Campo",+56 57 267 8544,zcaceres@example.net,1999-09-27,Femenino,Casado/a,172.17.118.128,KGBL-89,SXNJ23536937854777,1762559
+Carlos Jorquera Ruiz,72.764.386-9,"Ruta T-18, km 5, Región de Antofagasta",+56 2 2462 3120,nmiranda@example.net,2001-08-09,Femenino,Soltero/a,10.210.154.246,YLZP-08,WVNZ21182339845461,869191
+Marcelo Eulogio Araya Guerra,10.820.229-7,"Calle Los Carrera 8021, Curacautín, Región de La Araucanía",+56 800 491 803,esanchez@example.net,1973-12-31,Masculino,Casado/a,172.22.161.10,TDPH-93,SMVR56218501631599,2820420
+Solange María Sánchez Montes,65.847.691-2,"Barros Arana 2943 Dpto. 3642, El Carmen, Región de Ñuble, 1104750",+56 35 292 1267,frodriguez@example.com,1948-07-04,Femenino,Viudo/a,10.198.141.169,YI-9826,FEIJ47212646471543,1279267
+Trinidad Jessica López González,53.108.888-3,"Los Aromos 592 Piso 9, Cochamó, Región de Los Lagos, 5265470",+56 9 5456 4651,cristinaramos@example.net,1998-09-01,Masculino,Viudo/a,172.18.54.140,TV-2434,VEWN61797968868058,672404
+Ana Valenzuela,89.213.713-7,"Alma Concha 256, Camiña, Región de Tarapacá, 1438880",+56 9 5375 6798,micaela71@example.com,1992-06-15,Masculino,Soltero/a,192.168.159.176,JYXS-71,OXWO51401051238282,2260609
+Vicente Humberto Troncoso Flores,88.222.384-1,"Rossana Peña 403, San Javier, Región del Maule",+56 600 691 825,robertovargas@example.com,2007-08-30,Femenino,Viudo/a,192.168.58.124,WHPD-25,DHJD25286692966278,1044284
+Cintia Sáez Leiva,18.830.292-0,"María Figueroa 9236 Of. 8768, Maullín, Región de Los Lagos, 2190340",+56 2 2843 8427,velasquezmatias@example.net,1985-10-08,Masculino,Viudo/a,192.168.217.173,KPCW-45,CODY33959629233095,2037095
+Camila Toloza Álvarez,76.871.278-6,"Psje. Segundo Vicencio 3, Limache, Región de Valparaíso, 3253670",+56 2 3294 6671,rmoreno@example.net,1986-01-26,Femenino,Viudo/a,172.18.251.4,VP-1863,NGPI54589297500170,1684864
+Claudio González,57.418.260-3,"Calle Los Naranjos 6541, San Pedro, Región Metropolitana, 2064360",+56 600 310 371,nataliasaavedra@example.org,1982-08-08,Masculino,Viudo/a,192.168.36.67,DFFR-54,EMYY22189092753269,1613187
+María Rodríguez,16.529.892-6,"Los Copihues 2234 Dpto. 1489, Puyehue, Región de Los Lagos",+56 9 5264 0376,lauraaguilar@example.net,1937-06-25,Femenino,Divorciado/a,10.215.123.108,HXDB-91,AIGB06848666188924,1720796
+Raimundo Salomón Sepúlveda Carrasco,78.710.273-5,"Avenida Las Mandarinas 4, La Serena, Región de Coquimbo",+56 2 3116 1799,franco21@example.org,1954-07-07,Masculino,Casado/a,172.24.75.192,GLFB-56,IQCI91778507925241,525818
+Ana Abarca González,1.649.287-6,"Gabriela Mistral 4086 Piso 63, Colbún, Región del Maule, 1951800",+56 2 3538 0617,juana87@example.org,1986-01-19,Masculino,Divorciado/a,192.168.124.51,XJZK-20,NAHR50506413836702,2602851
+Martha Sophia Maldonado Cruz,49.995.036-5,"Ana López 11, Curacautín, Región de La Araucanía",+56 600 634 456,andrea31@example.org,1954-05-14,Masculino,Casado/a,10.238.158.198,FZSJ-74,OIDC24903521356804,2633651
+José Orellana-Peña,73.835.986-0,"Av. Camilo Henríquez 7323 Piso 21, Antofagasta, Región de Antofagasta, 1372150",+56 2 2707 0296,rmunoz@example.com,1959-05-12,Femenino,Casado/a,10.228.91.156,BZ-9934,PNRP01462638380657,1442877
+Giovanna Anahí Vega Torres,42.799.032-K,"Calle Los Tilos 393, Villa Alemana, Región de Valparaíso",+56 2 3734 8039,abelardo22@example.org,1979-02-14,Femenino,Soltero/a,192.168.72.193,JXZP-27,BCBH93087059325250,2218422
+Fredy Suárez Arce,48.974.696-4,"Ruta U-269, km 22, Región de Los Lagos",+56 41 292 6752,catalina92@example.com,1977-08-07,Femenino,Casado/a,10.200.127.251,ZB-2959,HUSD72513552157043,2872622
+Cristian Luis González Vega,98.325.836-0,"Michimalonco 861, Cerrillos, Región Metropolitana",+56 600 127 104,daniela11@example.com,1958-12-28,Femenino,Casado/a,192.168.47.171,XBVH-96,FBDK33688444310698,2271700
+Antonia Laura Álvarez Ponce,80.559.574-4,"Calle Las Rosas 8, Cabildo, Región de Valparaíso",+56 57 277 7418,pablomolina@example.org,1996-07-05,Masculino,Divorciado/a,172.23.61.96,ZB-2115,ZRNY93806868793741,569168
+José Donoso,69.366.066-1,"Ruta 5 Norte, km 124",+56 42 372 3320,zentenojavier@example.net,1955-12-20,Femenino,Divorciado/a,192.168.34.79,ZTZR-48,OAZW99861622999119,1743589
+Melissa Pastén Martinez,35.451.828-7,"Cristina Muñoz 7299 Dpto. 65, Puerto Montt, Región de Los Lagos, 4505440",+56 63 261 3247,erika91@example.org,1995-12-16,Masculino,Viudo/a,192.168.191.113,XG-1486,EYQS02330307053457,2440082
+Rosa Muñoz Miranda,79.731.191-K,"Ximena Jara 24 Piso 10, Codegua, Región del Libertador General Bernardo O'Higgins",+56 9 5133 3468,godoyluis@example.org,1936-12-28,Masculino,Divorciado/a,192.168.156.101,KS-6574,GOJV89691085899441,638381
+Margarita Martina Vásquez León,87.438.359-7,"Luciano Madrid 79, Curacaví, Región Metropolitana, 5207440",+56 57 366 0993,marcosvillarroel@example.com,1984-08-18,Femenino,Casado/a,192.168.92.189,XGLZ-25,UCHL34655494717099,1572199
+Lucy Anahí Mellado Molina,40.044.641-5,"Camino Miguel Alvear 37, Curanilahue, Región del Biobío",+56 600 117 525,penapatricia@example.org,1957-05-27,Femenino,Soltero/a,10.219.219.151,XTBC-83,XLAK83003354216894,1564389
+Matías Álvarez,97.687.955-4,"Santa Rosa 3753 Piso 0, Santa Cruz, Región del Libertador General Bernardo O'Higgins",+56 600 230 982,lucia06@example.net,1970-08-27,Masculino,Soltero/a,192.168.10.27,FVWT-18,IPWE30461849926189,1724783
+Luis Francisco Fuentes Vargas,70.215.491-K,"Ruta U-364, km 3, Región de Ñuble",+56 2 3275 3001,fsepulveda@example.net,1946-01-20,Masculino,Divorciado/a,192.168.151.144,CFHC-45,ZVKN11002255794155,2087859
+Andy Pedro Vega Monsalve,56.604.970-8,"Calle Aníbal Pinto Garmendia 8979, Olivar, Región del Libertador General Bernardo O'Higgins",+56 9 8259 0277,eparra@example.com,1978-08-10,Masculino,Casado/a,192.168.48.195,KXST-28,TBAU28772175354083,975013
+Tania María Parra Velásquez,11.813.835-K,"Ruta 5 Sur, km 324",+56 2 2970 1660,jofreelisa@example.net,1977-04-18,Masculino,Viudo/a,172.17.188.159,VL-8997,WVLW71130554885102,1423911
+Monserrat Salazar,34.130.143-2,"Pasaje Manuel Antonio Matta 235, Pitrufquén, Región de La Araucanía",+56 2 2391 7798,vgonzalez@example.org,1994-09-30,Femenino,Casado/a,192.168.65.187,RYTV-93,IMKJ72269848583339,2854019
+Regina López Ahumada,23.865.626-5,"Avda. Pedro Aguirre Cerda 568 Piso 0, Mejillones, Región de Antofagasta",+56 41 350 0342,carlos04@example.org,1940-03-27,Femenino,Viudo/a,10.114.216.106,YR-3840,MMNZ58004397359893,1487900
+Sandra Torres,91.624.930-6,"Luis Muñoz 5422, Putre, Región de Arica y Parinacota, 5720250",+56 9 2294 7985,silvia28@example.org,2004-08-03,Masculino,Viudo/a,192.168.47.19,JRRS-43,YTQP80157399305616,1938054
+José Lagos Córdova,69.029.403-6,"Ruta 5 Sur, km 499",+56 2 2343 5811,mendezvictor@example.net,1964-11-07,Femenino,Soltero/a,10.222.215.123,DGBW-50,CCBF48193466766506,2076371
+Lucía Trinidad Riveros Toledo,94.070.803-6,"Ruta 5 Sur, km 951",+56 9 3744 9147,bmaturana@example.com,1957-02-11,Masculino,Casado/a,192.168.151.7,PR-245,ARRE10099688143536,2742506
+Claudia Flores,82.796.902-8,"Ruta 5 Norte, km 118",+56 2 3590 8781,valenzuelafrancisco@example.net,2002-02-23,Femenino,Divorciado/a,10.120.20.176,DJRX-75,TVJW92995562053364,2651118
+Marcia Priscilla Henríquez Figueroa,40.999.740-6,"Avenida Juan Vásquez 48, Sagrada Familia, Región del Maule",+56 600 710 809,karinramos@example.net,2000-02-04,Masculino,Divorciado/a,172.25.79.221,YYDT-58,AVHZ92827229927503,1673272
+Carmen Constanza Chávez Lagos,48.486.347-4,"Calle Caupolicán 9844 Of. 7262, Purranque, Región de Los Lagos, 4638650",+56 63 287 9082,cristianmoreno@example.com,1964-08-17,Masculino,Casado/a,10.60.149.199,VRFX-77,GSFU60302992280920,877614
+Roberto Orellana,75.645.752-7,"Calle Barros Luco 42 Piso 9, El Bosque, Región Metropolitana",+56 2 3298 4257,patriciolopez@example.org,1963-05-19,Femenino,Casado/a,192.168.243.165,RP-8811,PVET80686508637659,2906464
+Olivia Venegas,57.108.230-6,"Pasaje María Arriagada 143 Of. 909, Río Negro, Región de Los Lagos, 0635650",+56 2 2726 9448,lorena63@example.com,2001-07-03,Masculino,Divorciado/a,192.168.129.239,PR-956,XEVD37213865890260,762741
+Bárbara Arriagada,11.830.053-K,"Arturo Prat 9669, Coronel, Región del Biobío, 9027700",+56 2 3984 3098,alonsocatalan@example.com,1968-05-27,Masculino,Casado/a,10.204.130.146,TTJY-01,CRJX89554393769042,2154163
+Juan Benjamín Benítez Montecinos,34.587.030-K,"Ruta 5 Sur, km 711",+56 57 389 7357,jimenezdaniela@example.com,1965-11-01,Masculino,Divorciado/a,172.16.79.167,KI-4165,CRFP55394237333433,1037881
+Andrés Carlos Rodríguez Gamboa,90.705.977-4,"Ruta U-990, km 3, Región de Ñuble",+56 71 235 7947,ricardo92@example.org,2007-05-24,Femenino,Viudo/a,192.168.177.207,HWFY-75,WAAV36915594284347,2415204
+Patricia Laura Olivares Leal,48.999.947-1,"Ruta 5 Sur, km 462",+56 2 3492 9314,malmonacid@example.org,1956-03-12,Femenino,Soltero/a,10.68.217.120,CD-7448,SBMD20347175455884,1811378
+Diego Hernán Salas Acuña,87.223.478-0,"Calle Las Maravillas 771, Pedro Aguirre Cerda, Región Metropolitana",+56 61 272 2569,perezsergio@example.com,1978-12-20,Femenino,Divorciado/a,192.168.138.225,RY-8762,FAEX34132611178006,1138721
+Ana Hidalgo-Pérez,52.324.282-2,"Calle Los Higos 6200, Cabrero, Región del Biobío, 7784870",+56 2 3782 9979,priscilla78@example.org,1948-01-11,Femenino,Divorciado/a,172.20.251.163,BYGS-47,RAWP74064930853686,2978776
+Franco Sergio Vera Vargas,56.672.020-5,"Avenida Las Azucenas 46 Dpto. 2822, Longaví, Región del Maule",+56 800 935 020,floresana@example.com,1952-11-09,Femenino,Soltero/a,10.7.138.3,RVPX-57,WZBK12046187234601,2147806
+Mónica Paz Valenzuela,4.497.685-4,"Álvaro Castillo 345, San Joaquín, Región Metropolitana, 0881470",+56 800 435 031,kgarcia@example.com,1952-02-15,Femenino,Casado/a,10.243.86.173,GSDK-27,CVTK00528127358573,2016660
+Alex Víctor Muñoz Neira,75.031.047-8,"Calle Viviana García 398 Dpto. 5982, Pemuco, Región de Ñuble, 7086200",+56 9 7493 5186,jgaete@example.net,1974-05-17,Femenino,Viudo/a,192.168.49.72,DCGH-03,DPGD09678994053910,753898
+Nicole Vania Pérez Arévalo,8.147.051-0,"Lautaro 1948 Of. 214, Puyehue, Región de Los Lagos, 1138630",+56 2 3783 9288,gaeteanahi@example.net,1998-04-10,Femenino,Soltero/a,10.205.152.230,HZWS-58,KLNY65939836845776,1192499
+Sebastián José López Aedo,881.663-8,"Av. María Maturana 948, Laguna Blanca, Región de Magallanes y de la Antártica Chilena, 9921070",+56 41 242 4593,leonel19@example.com,1965-06-07,Masculino,Divorciado/a,172.19.13.56,PCTD-05,LNND39060480589258,829728
+Elsa Yocelyn Villar Cid,77.209.409-4,"San Martín 1517, Tortel, Región de Aysén del General Carlos Ibáñez del Campo",+56 51 331 6862,fbustamante@example.com,1962-07-13,Masculino,Casado/a,10.220.49.147,DFVV-55,GKLT04259792703352,549786
+Ana Rojas,83.349.546-1,"Ruta U-205, km 20, Región de Arica y Parinacota",+56 32 395 3833,maximiliano92@example.net,1938-05-06,Femenino,Soltero/a,172.25.22.163,LCWB-16,VIVV51046368157981,1846059
+Vicente Milton González Valenzuela,71.056.937-1,"Colo Colo 4554 Of. 5401, Laguna Blanca, Región de Magallanes y de la Antártica Chilena, 4325620",+56 2 2368 9363,mprieto@example.com,1996-12-21,Masculino,Casado/a,192.168.103.149,LW-2629,FKCR81252056647423,2757880
+Máximo Marco Vargas Mora,30.992.406-1,"Calle Caupolicán 889, San Bernardo, Región Metropolitana",+56 42 246 7722,mariabaeza@example.org,1972-07-26,Femenino,Casado/a,192.168.103.217,CG-7975,OHNM09656999880817,2801757
+Robinson Valenzuela,72.191.584-0,"Sergio Gaete 4, Hualqui, Región del Biobío, 7644720",+56 52 389 0827,carcamoluis@example.net,1954-04-04,Femenino,Viudo/a,172.21.185.95,JWDL-52,WXDC17518689268602,928024
+Ignacia Sepúlveda Serrano,24.007.100-2,"Balmaceda 57, Recoleta, Región Metropolitana",+56 2 3112 3094,fvidal@example.net,1936-08-15,Femenino,Casado/a,10.243.144.133,WDBK-84,TURG02205020994510,1717713
+Carlos Fernández-Villalobos,93.931.859-3,"Las Mandarinas 501, Antuco, Región del Biobío",+56 57 281 6814,luisespinosa@example.com,2007-07-28,Femenino,Casado/a,192.168.29.202,YDXP-69,KIQS95299787729343,2216275
+Maximiliano Luis Bastías Véliz,55.650.987-5,"Las Rosas 503 Piso 51, Quellón, Región de Los Lagos",+56 9 7101 5569,camilaurra@example.net,2001-01-17,Femenino,Soltero/a,192.168.79.142,ZRWV-08,JSXV58803955124056,556753
+Luisa Sandoval,79.885.310-4,"Caupolicán 6173 Piso 4, San Pablo, Región de Los Lagos, 4215030",+56 2 2478 0782,vladimir84@example.com,1955-05-06,Masculino,Casado/a,10.235.50.86,YFBP-09,CKOB18409435334485,1848748
+Margarita Martínez Contreras,83.610.267-3,"Calle Ximena Sánchez 44, Graneros, Región del Libertador General Bernardo O'Higgins",+56 2 2349 5870,pizarroalberto@example.org,1988-01-18,Masculino,Soltero/a,172.30.68.74,PRJZ-17,SECZ71747733294562,2143806
+Amalia Cordero Aguilera,4.061.993-3,"Los Aromos 64, Lo Espejo, Región Metropolitana, 9281610",+56 65 271 4876,soniaguerrero@example.com,1988-01-29,Masculino,Divorciado/a,10.220.191.126,TY-5832,VVCX97199758172461,2906298
+Marisol Cancino Carrasco,86.568.983-7,"Av. Scarlett Órdenes 302, Valdivia, Región de Los Ríos",+56 9 6669 9733,nelson46@example.net,1982-09-11,Masculino,Soltero/a,192.168.206.242,LB-5800,WRLD40369656666832,2146497
+Sergio Dagoberto Riffo Sepúlveda,89.934.757-9,"Avenida Caupolicán 321, San José de Maipo, Región Metropolitana, 6796920",+56 64 346 8765,emiliagonzalez@example.com,1968-01-23,Femenino,Viudo/a,192.168.17.33,PR-975,DSPW12847818913718,2926282

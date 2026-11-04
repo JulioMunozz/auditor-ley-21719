@@ -1,3 +1,5 @@
+import random
+
 from faker import Faker
 import pandas as pd
 
@@ -15,6 +17,11 @@ for i in range(100):
         "fecha_nacimiento": fake.date_of_birth(minimum_age=18, maximum_age=90).strftime("%Y-%m-%d"),
         "genero": fake.random_element(elements=("Masculino", "Femenino")),
         "estado_civil": fake.random_element(elements=("Soltero/a", "Casado/a", "Divorciado/a", "Viudo/a")),
+        "ip" : fake.ipv4_private(),
+        "patente": fake.license_plate(),
+        "cuenta_bancaria": fake.bban(),
+        "sueldo": random.randint(500_000, 3_000_000),
+
     }
     clientes.append(cliente)
 
