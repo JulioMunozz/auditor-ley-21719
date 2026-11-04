@@ -27,3 +27,5 @@ Todos los datos son generados con Faker.
 | Origen étnico | Sensible | "Pueblo mapuche" |
 | Creencia religiosa | Sensible | "Católico" |
 | Dato biométrico | Sensible | Huella dactilar (hash ficticio: a3f9c1...) |
+
+ ## los datos son ficticios, generados con Faker.
