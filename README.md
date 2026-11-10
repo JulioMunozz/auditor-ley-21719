@@ -24,8 +24,25 @@ Proyecto personal que detecta datos personales en las bases de una pyme ficticia
 | cargar_db.py | Carga los tres CSV como tablas en la base SQLite `pyme.db` |
 | consultas.sql | Consultas SQL del auditor (resumen por cliente y ventas huérfanas) |
 | ejecutar_consultas.py | Ejecuta las consultas de `consultas.sql` contra `pyme.db` |
+| schema.sql | Modelo de datos con CREATE TABLE, claves primarias y foráneas |
+| probar_schema.py | Prueba que schema.sql crea las tablas y que las FK bloquean ventas huérfanas |
+| diagrama.png | Diagrama del modelo de datos |
 | clientes.csv, empleados.csv, ventas.csv | Datos ficticios generados por los scripts |
 | requirements.txt | Dependencias de Python |
+
+## Modelo de datos
+
+![Diagrama del modelo](diagrama.png)
+
+Cada venta pertenece a un cliente (`ventas.cliente_id`) y fue hecha por un empleado (`ventas.empleado_id`). El modelo completo está en `schema.sql`.
+
+> Este es el diseño objetivo. Por ahora los scripts generan las ventas ligadas a clientes por `rut_cliente`; adaptarlos al modelo es un paso siguiente.
+
+Para comprobar que el modelo funciona:
+
+```
+python probar_schema.py
+```
 
 ## Cómo usarlo
 
@@ -126,6 +143,7 @@ Las tablas siguientes son el catálogo de datos que el auditor debe detectar. Lo
 - [x] Validación de RUT con módulo 11 y pruebas automáticas con pytest
 - [x] Base de datos SQLite con las tres tablas
 - [x] Primeras consultas SQL (resumen por cliente y detección de ventas huérfanas)
+- [x] Modelo de datos (diagrama y schema.sql)
 - [ ] Consultas SQL de calidad y duplicados
 - [ ] Clasificación con IA
 - [ ] Dashboard en Power BI
