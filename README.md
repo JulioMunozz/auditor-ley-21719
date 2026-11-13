@@ -12,7 +12,7 @@ Proyecto personal que detecta datos personales en las bases de una pyme ficticia
 - **Valida RUT chilenos** con el algoritmo módulo 11, con pruebas automáticas en pytest.
 - **Define un modelo de datos** con claves primarias y foráneas (`schema.sql`), donde cada venta pertenece a un cliente y fue hecha por un empleado.
 - **Crea una base SQLite** (`pyme_modelo.db`) a partir de ese modelo, en la que la propia base impide registrar ventas con clientes o empleados inexistentes.
-- **Responde 10 preguntas con SQL** (`consultas.sql`): cruces entre tablas con JOIN, búsqueda de clientes y empleados sin ventas, y resúmenes con GROUP BY como ventas por producto, por mes y rankings.
+- **Responde 11 preguntas con SQL** (`consultas.sql`): cruces entre tablas con JOIN, búsqueda de clientes y empleados sin ventas, y resúmenes con GROUP BY como ventas por producto, por mes y rankings.
 - **Planta errores a propósito** para que el auditor tenga algo que detectar: RUT inválidos, ventas huérfanas y empleados sin ventas.
 
 ## Tecnologías
@@ -32,13 +32,13 @@ Proyecto personal que detecta datos personales en las bases de una pyme ficticia
 | schema.sql | Modelo de datos con CREATE TABLE, claves primarias y foráneas |
 | probar_schema.py | Prueba que `schema.sql` crea las tablas y que las FK bloquean ventas huérfanas |
 | crear_modelo.py | Crea `pyme_modelo.db` desde `schema.sql`, carga clientes y empleados, y genera 300 ventas |
-| consultas.sql | Las 10 consultas del auditor sobre `pyme_modelo.db` |
+| consultas.sql | Las 11 consultas del auditor sobre `pyme_modelo.db` |
 | ejecutar_consultas.py | Ejecuta las consultas de `consultas.sql` y muestra sus resultados |
 | diagrama.png | Diagrama del modelo de datos |
 | clientes.csv, empleados.csv | Datos ficticios generados por los scripts |
 | requirements.txt | Dependencias de Python |
 
-Archivos de la primera versión (se mantienen como historial): `generar_ventas.py`, `ventas.csv`, `cargar_db.py` y `consultas_pyme.sql`, que trabajan con la base `pyme.db`, donde las ventas se ligan a los clientes por RUT y hay 3 ventas huérfanas plantadas.
+Archivos de la primera versión (se mantienen como historial): `generar_ventas.py`, `ventas.csv`, `cargar_db.py` y `consultas_v1_pyme.sql`, que trabajan con la base `pyme.db`, donde las ventas se ligan a los clientes por RUT y hay 3 ventas huérfanas plantadas.
 
 ## Modelo de datos
 
@@ -85,7 +85,7 @@ Cada venta pertenece a un cliente (`ventas.cliente_id`) y fue hecha por un emple
 
    Al final muestra los conteos de cada tabla: 100 clientes, 50 empleados y 300 ventas.
 
-6. Ejecuta las 10 consultas del auditor:
+6. Ejecuta las consultas del auditor:
 
    ```
    python ejecutar_consultas.py
@@ -163,7 +163,7 @@ Las tablas siguientes son el catálogo de datos que el auditor debe detectar. Lo
 - [x] Validación de RUT con módulo 11 y pruebas automáticas con pytest
 - [x] Modelo de datos con claves primarias y foráneas (diagrama y `schema.sql`)
 - [x] Base SQLite creada desde el modelo con `crear_modelo.py`
-- [x] 10 consultas SQL con JOIN, LEFT JOIN, GROUP BY y HAVING
+- [x] 11 consultas SQL con JOIN, LEFT JOIN, GROUP BY y HAVING
 
 **Próximos pasos:**
 
