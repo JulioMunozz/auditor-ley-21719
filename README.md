@@ -100,7 +100,7 @@ Cada venta pertenece a un cliente (`ventas.cliente_id`) y fue hecha por un emple
 
 > Las bases `.db` no se suben al repositorio (están en `.gitignore`) porque se pueden regenerar en cualquier momento con los pasos 4 y 5.
 
-### Las 10 consultas
+### Las consultas
 
 | # | Pregunta que responde | Técnica |
 |---|---|---|
@@ -114,6 +114,7 @@ Cada venta pertenece a un cliente (`ventas.cliente_id`) y fue hecha por un emple
 | 8 | ¿Qué empleados venden más? | JOIN + GROUP BY |
 | 9 | ¿Quiénes son los 5 clientes que más gastan? | JOIN + GROUP BY + LIMIT |
 | 10 | ¿Quiénes son los clientes frecuentes (5 compras o más)? | GROUP BY + HAVING |
+| 11 | ¿Qué clientes hacen compras grandes seguido? | WHERE + GROUP BY + HAVING |
 
 ### Detalles de los datos generados
 

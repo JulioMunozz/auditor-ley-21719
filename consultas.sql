@@ -78,3 +78,14 @@ INNER JOIN clientes ON ventas.cliente_id = clientes.id
 GROUP BY clientes.id, clientes.nombre
 HAVING COUNT(ventas.id) >= 5
 ORDER BY cantidad_compras DESC;
+
+-- 11) ¿Qué clientes hacen compras grandes seguido? Clientes con 2 o más compras sobre $1.000.000
+SELECT clientes.nombre,
+       COUNT(ventas.id) AS compras_grandes,
+       SUM(ventas.monto) AS monto_total
+FROM ventas
+INNER JOIN clientes ON ventas.cliente_id = clientes.id
+WHERE ventas.monto > 1000000
+GROUP BY clientes.id, clientes.nombre
+HAVING COUNT(ventas.id) >= 2
+ORDER BY compras_grandes DESC, monto_total DESC;
