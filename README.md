@@ -6,11 +6,20 @@ Proyecto personal que detecta datos personales en las bases de una pyme ficticia
 
 > Aviso: todos los datos de este repositorio son ficticios, generados con Faker. No hay datos reales de personas.
 
+## Qué hace el proyecto hasta ahora
+
+- **Genera los datos de una pyme ficticia** con Faker: 100 clientes, 50 empleados y 300 ventas, siempre los mismos gracias a una semilla fija.
+- **Valida RUT chilenos** con el algoritmo módulo 11, con pruebas automáticas en pytest.
+- **Define un modelo de datos** con claves primarias y foráneas (`schema.sql`), donde cada venta pertenece a un cliente y fue hecha por un empleado.
+- **Crea una base SQLite** (`pyme_modelo.db`) a partir de ese modelo, en la que la propia base impide registrar ventas con clientes o empleados inexistentes.
+- **Responde 10 preguntas con SQL** (`consultas.sql`): cruces entre tablas con JOIN, búsqueda de clientes y empleados sin ventas, y resúmenes con GROUP BY como ventas por producto, por mes y rankings.
+- **Planta errores a propósito** para que el auditor tenga algo que detectar: RUT inválidos, ventas huérfanas y empleados sin ventas.
+
 ## Tecnologías
 
 - Python (pandas, Faker, pytest)
 - SQL (SQLite)
-- Power BI
+- Power BI (próximamente)
 
 ## Estructura del repositorio
 
@@ -20,29 +29,22 @@ Proyecto personal que detecta datos personales en las bases de una pyme ficticia
 | test_rut.py | Pruebas automáticas de `validar_rut` con pytest |
 | generar_clientes.py | Genera 100 clientes ficticios (con 5 RUT inválidos a propósito) |
 | generar_empleados.py | Genera 50 empleados ficticios con RUT válido y correo corporativo |
-| generar_ventas.py | Genera 300 ventas ligadas a clientes (con 3 ventas huérfanas a propósito) |
-| cargar_db.py | Carga los tres CSV como tablas en la base SQLite `pyme.db` |
-| consultas.sql | Consultas SQL del auditor (resumen por cliente y ventas huérfanas) |
-| ejecutar_consultas.py | Ejecuta las consultas de `consultas.sql` contra `pyme.db` |
 | schema.sql | Modelo de datos con CREATE TABLE, claves primarias y foráneas |
-| probar_schema.py | Prueba que schema.sql crea las tablas y que las FK bloquean ventas huérfanas |
+| probar_schema.py | Prueba que `schema.sql` crea las tablas y que las FK bloquean ventas huérfanas |
+| crear_modelo.py | Crea `pyme_modelo.db` desde `schema.sql`, carga clientes y empleados, y genera 300 ventas |
+| consultas.sql | Las 10 consultas del auditor sobre `pyme_modelo.db` |
+| ejecutar_consultas.py | Ejecuta las consultas de `consultas.sql` y muestra sus resultados |
 | diagrama.png | Diagrama del modelo de datos |
-| clientes.csv, empleados.csv, ventas.csv | Datos ficticios generados por los scripts |
+| clientes.csv, empleados.csv | Datos ficticios generados por los scripts |
 | requirements.txt | Dependencias de Python |
+
+Archivos de la primera versión (se mantienen como historial): `generar_ventas.py`, `ventas.csv`, `cargar_db.py` y `consultas_pyme.sql`, que trabajan con la base `pyme.db`, donde las ventas se ligan a los clientes por RUT y hay 3 ventas huérfanas plantadas.
 
 ## Modelo de datos
 
 ![Diagrama del modelo](diagrama.png)
 
-Cada venta pertenece a un cliente (`ventas.cliente_id`) y fue hecha por un empleado (`ventas.empleado_id`). El modelo completo está en `schema.sql`.
-
-> Este es el diseño objetivo. Por ahora los scripts generan las ventas ligadas a clientes por `rut_cliente`; adaptarlos al modelo es un paso siguiente.
-
-Para comprobar que el modelo funciona:
-
-```
-python probar_schema.py
-```
+Cada venta pertenece a un cliente (`ventas.cliente_id`) y fue hecha por un empleado (`ventas.empleado_id`). El modelo completo está en `schema.sql`, y la base que lo implementa se crea con `crear_modelo.py`.
 
 ## Cómo usarlo
 
@@ -68,54 +70,69 @@ python probar_schema.py
    pip install -r requirements.txt
    ```
 
-4. Genera los datos ficticios. El orden importa: `generar_ventas.py` usa los RUT de `clientes.csv`, así que los clientes van primero.
+4. Genera los clientes y empleados ficticios:
 
    ```
    python generar_clientes.py
    python generar_empleados.py
-   python generar_ventas.py
    ```
 
-5. Crea la base de datos `pyme.db` con las tablas `clientes`, `empleados` y `ventas`:
+5. Crea la base `pyme_modelo.db` con el modelo y las 300 ventas:
 
    ```
-   python cargar_db.py
+   python crear_modelo.py
    ```
 
-   Al final muestra los conteos de cada tabla (100, 50 y 300) y las ventas huérfanas.
+   Al final muestra los conteos de cada tabla: 100 clientes, 50 empleados y 300 ventas.
 
-6. Ejecuta las consultas del auditor:
+6. Ejecuta las 10 consultas del auditor:
 
    ```
    python ejecutar_consultas.py
    ```
 
-7. (Opcional) Corre las pruebas automáticas:
+7. (Opcional) Corre las pruebas:
 
    ```
    python -m pytest -v
+   python probar_schema.py
    ```
 
-> `pyme.db` no se sube al repositorio (está en `.gitignore`) porque se puede regenerar en cualquier momento con los pasos 4 y 5.
+> Las bases `.db` no se suben al repositorio (están en `.gitignore`) porque se pueden regenerar en cualquier momento con los pasos 4 y 5.
+
+### Las 10 consultas
+
+| # | Pregunta que responde | Técnica |
+|---|---|---|
+| 1 | ¿Qué compró cada cliente? | INNER JOIN |
+| 2 | ¿Qué empleado hizo cada venta? | INNER JOIN |
+| 3 | ¿Quién le vendió qué a quién? | JOIN de 3 tablas |
+| 4 | ¿Qué clientes nunca han comprado? | LEFT JOIN + IS NULL |
+| 5 | ¿Qué empleados no han hecho ninguna venta? | LEFT JOIN + IS NULL |
+| 6 | ¿Qué productos se venden más? | GROUP BY |
+| 7 | ¿Cómo se reparten las ventas en el año? | GROUP BY por mes |
+| 8 | ¿Qué empleados venden más? | JOIN + GROUP BY |
+| 9 | ¿Quiénes son los 5 clientes que más gastan? | JOIN + GROUP BY + LIMIT |
+| 10 | ¿Quiénes son los clientes frecuentes (5 compras o más)? | GROUP BY + HAVING |
 
 ### Detalles de los datos generados
 
-- **clientes**: 100 filas, 12 columnas (nombre, rut, direccion, telefono, email, fecha_nacimiento, genero, estado_civil, ip, patente, cuenta_bancaria, sueldo).
-- **empleados**: 50 filas, 6 columnas (nombre, rut, cargo, fecha_ingreso, sueldo, correo).
-- **ventas**: 300 filas, 5 columnas (id_venta, rut_cliente, fecha, producto, monto).
-- Los datos son reproducibles: todos los scripts usan la semilla 42, así que cada ejecución genera los mismos datos.
-- Errores plantados a propósito para que el auditor los detecte: 5 clientes con RUT inválido y 3 ventas con un RUT que no existe en clientes (registros huérfanos).
+- **clientes**: 100 filas (nombre, rut, direccion, telefono, email, fecha_nacimiento, genero, estado_civil, ip, patente, cuenta_bancaria, sueldo).
+- **empleados**: 50 filas (nombre, rut, cargo, fecha_ingreso, sueldo, correo).
+- **ventas**: 300 filas (cliente_id, empleado_id, fecha, producto, monto), todas ligadas a un cliente y un empleado que existen.
+- Los datos son reproducibles: todos los scripts usan la semilla 42.
+- Casos plantados a propósito para el auditor: 5 clientes con RUT inválido y 3 empleados sin ventas.
 
 ## Catálogo de datos que detecta el auditor
 
-Las tablas siguientes son el catálogo de datos que el auditor debe detectar. Los datos personales de la primera tabla están en los CSV generados; los datos sensibles son un catálogo de referencia y todavía no están en los datos.
+Las tablas siguientes son el catálogo de datos que el auditor debe detectar. Los datos personales de la primera tabla están en los datos generados; los datos sensibles son un catálogo de referencia y todavía no están en los datos.
 
 ### Datos personales (12 ejemplos)
 
 | Dato | Tipo | Cómo se vería (ficticio) | Dónde está |
 |---|---|---|---|
 | Nombre completo | Personal | Ana Pérez Soto | clientes, empleados |
-| RUT | Personal | 12.345.678-5 | clientes, empleados, ventas |
+| RUT | Personal | 12.345.678-5 | clientes, empleados |
 | Correo electrónico | Personal | ana.perez@example.com | clientes, empleados |
 | Teléfono | Personal | +56 9 1234 5678 | clientes |
 | Dirección | Personal | Calle Falsa 123, Maipú | clientes |
@@ -139,11 +156,16 @@ Las tablas siguientes son el catálogo de datos que el auditor debe detectar. Lo
 
 ## Avance del proyecto
 
+**Mes 1 (completado):**
+
 - [x] Generación de datos ficticios con Faker (clientes, empleados y ventas)
 - [x] Validación de RUT con módulo 11 y pruebas automáticas con pytest
-- [x] Base de datos SQLite con las tres tablas
-- [x] Primeras consultas SQL (resumen por cliente y detección de ventas huérfanas)
-- [x] Modelo de datos (diagrama y schema.sql)
+- [x] Modelo de datos con claves primarias y foráneas (diagrama y `schema.sql`)
+- [x] Base SQLite creada desde el modelo con `crear_modelo.py`
+- [x] 10 consultas SQL con JOIN, LEFT JOIN, GROUP BY y HAVING
+
+**Próximos pasos:**
+
 - [ ] Consultas SQL de calidad y duplicados
-- [ ] Clasificación con IA
+- [ ] Clasificación de datos con IA
 - [ ] Dashboard en Power BI
