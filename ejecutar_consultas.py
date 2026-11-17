@@ -4,7 +4,9 @@ import sqlite3
 
 import pandas as pd
 
-with open("consultas.sql", encoding="utf-8") as archivo:
+import sys
+archivo_sql = sys.argv[1] if len(sys.argv) > 1 else "consultas.sql"
+with open(archivo_sql, encoding="utf-8") as archivo:
     texto = archivo.read()
 
 # Cada consulta termina en ";", así que separamos por ese carácter
