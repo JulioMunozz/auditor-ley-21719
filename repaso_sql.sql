@@ -26,3 +26,14 @@ SELECT clientes.id, clientes.nombre, clientes.email
 FROM clientes
 LEFT JOIN ventas ON ventas.cliente_id = clientes.id
 WHERE ventas.cliente_id IS NULL;
+
+-- 4) Diferencia entre WHERE y HAVING:
+-- WHERE filtra filas sueltas, ANTES de agrupar. Decide qué filas entran al cálculo.
+--   Ejemplo: WHERE monto > 1000000 deja solo las ventas grandes.
+-- HAVING filtra grupos, DESPUÉS del GROUP BY. Decide qué grupos se muestran,
+--   usando resultados como SUM, COUNT o AVG.
+--   Ejemplo: HAVING COUNT(ventas.id) >= 5 deja solo a los clientes con 5 compras o más.
+-- No se puede escribir WHERE SUM(monto) > ..., porque cuando se ejecuta el WHERE
+-- todavía no existen los grupos ni sus totales.
+-- En este repaso usé HAVING en la consulta 2: el total de cada mes (SUM(monto))
+-- solo existe después de agrupar por mes, así que WHERE no servía.
