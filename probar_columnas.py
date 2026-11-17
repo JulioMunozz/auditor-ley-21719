@@ -1,14 +1,16 @@
-"""Analiza cada columna de clientes.csv y muestra qué tipo de dato personal contiene."""
+"""Audita cada columna de clientes.csv y empleados.csv combinando valores y nombre de columna."""
 
 import pandas as pd
 
-from auditor.columnas import UMBRAL, analizar_columna
+from auditor.columnas import auditar_columna
 
-df = pd.read_csv("clientes.csv")
-
-print(f"{'Columna':<18} {'Tipo':<10} {'% calza':>8}  Marcada (>= {UMBRAL}%)")
-for columna in df.columns:
-    r = analizar_columna(df[columna])
-    tipo = r["tipo"] or "-"
-    marcada = "Sí" if r["marcada"] else "No"
-    print(f"{columna:<18} {tipo:<10} {r['porcentaje']:>7}%  {marcada}")
+for archivo in ("clientes.csv", "empleados.csv"):
+    df = pd.read_csv(archivo)
+    print(f"\n===== {archivo} =====")
+    print(f"{'Columna':<18} {'Tipo':<20} {'Categoría':<10} {'% valor':>8}  Detectado por")
+    for columna in df.columns:
+        h = auditar_columna(columna, df[columna])
+        if h is None:
+            print(f"{columna:<18} -")
+        else:
+            print(f"{columna:<18} {h['tipo']:<20} {h['categoria']:<10} {h['porcentaje']:>7}%  {h['detectado_por']}")
